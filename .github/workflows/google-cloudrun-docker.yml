@@ -51,7 +51,7 @@ on:
 env:
   PROJECT_ID: pololab # TODO: update Google Cloud project id
   GAR_LOCATION: asia-east1 # TODO: update Artifact Registry location
-  SERVICE: test # TODO: update Cloud Run service name
+  SERVICE: github # TODO: update Cloud Run service name
   REGION: asia-east1 # TODO: update Cloud Run service region
 
 jobs:
