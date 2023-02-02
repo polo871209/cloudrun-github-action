@@ -1,0 +1,11 @@
+Dockerfile
+README.md
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.pytest_cache
+.idea
+ssl_cert
+
+  gcloud run services add-iam-policy-binding dockerplayground --member="allUsers" --role="roles/run.invoker"
